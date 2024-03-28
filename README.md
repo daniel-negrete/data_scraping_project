@@ -16,7 +16,7 @@ The code then saves the sublists into a csv file, and it iterates until all 7 we
 
 I was able to save and create 7 files that have the top 300 pokemon for stats - based on speed, defense, sp. def, sp. attack, hp, attack, overall stats.
 
-The following is and example how the text is extracted:
+The following is and example how the text is extracted (attached is the .csv created from "total stats"):
 
 #0493		Arceus		120	120	120	120	120	120
 
