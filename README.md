@@ -1,12 +1,14 @@
 This is a data scraping project using Python and the Beautiful Soup package to parse websites for video game, Pokemon, data.
 
-The code sets up a function that extracts all six of a Pokemon's stats, their name, ability, and number, under different 7 different webpages on Serebii.com
+The code was tested on a Jupyter Notebook and then uploaded to BitHub.
 
-The website makes some columns BOLD which caused Beautiful Soup to miss data, so I had to iterate through the data and remove certain formatting tags <b> and </b>.
+The code sets up a function that extracts all six of a Pokemon's stats, their name, ability, and number -- under different 7 different webpages on Serebii.com
 
-These tags also had a class = "fooben" which I had to iterate and change to have a "fooinfo" class so Beautiful Soup can extract the information more precisely.
+The website makes some columns BOLD which caused Beautiful Soup to miss data when iterating through tags, so I had to create a function to iterate through the data and remove certain formatting tags <b> and </b>.
 
-The code parses through the websites html and extracts the data into a new list using the <td> tag and class = "fooinfo."
+These tags also had a class = "fooben", which I had to iterate and change to have a "fooinfo" class so that Beautiful Soup can extract the information more precisely.
+
+The code then parses through the webpages' html and extracts the data into a new list using the <td> tag and class = "fooinfo."
 
 I then setup a function to iterate through the list and group the data further using a character's Pokemon Number. 
 
